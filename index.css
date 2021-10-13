@@ -1,81 +1,157 @@
-@font-face {
-    font-family: Grind;
-    src: url("assets/goregrinder.otf") format("opentype");
-}
-
-html {
-    width: 300%; height: 300%;
-}
-body {
+body, html {
     width: 100%; height: 100%;
     text-align: center;
     background-image: url("assets/bg-pattern.png");
     color: whitesmoke;
     font-family: Roboto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr;
-    justify-content: stretch; align-content: stretch;
     font-size: .85em;
+    -webkit-box-orient: vertical; -webkit-box-direction: normal;
+    -ms-flex-direction: column; flex-direction: column;
+    overflow: hidden;
+    gap: 10px;
+}
+.nav-box, body, #copyright { /* Give flex and center */
+    display: -webkit-box; display: -ms-flexbox; display: flex;
+    -webkit-box-align: center; -ms-flex-align: center; align-items: center;
+    -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
 }
 
-.section, .SI-flex-container {
-    display: -webkit-flexbox; display: -ms-flexbox; display: -webkit-flex; display: flex;
-    -webkit-flex-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; justify-content: center;
+#banner {width: 90%; height: 23%;}
+
+.nav-box {
+    width: 100%; height: 100%;
+    text-decoration:none;
+    color: whitesmoke;
+    border: solid;
+    border-color: black;
 }
 
-.section {
-    background-size: cover; background-repeat: no-repeat;  
+nav {
+    width: 100%; height: 25%;
+    display: -ms-grid; display: grid;
+    -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
+    gap: 2px;
+    -ms-grid-rows: 100px 2px 100px 2px 100px; grid-template-rows: 100px 100px 100px;
+    -ms-grid-columns: 100px 2px 100px 2px 100px; grid-template-columns: 100px 100px 100px;
 }
 
-#center {background-image: url("assets/center-bg.png"); background-position: center; position: relative;}
-#left {background-image: url("assets/left-bg.png"); background-position: left;}
-#right {background-image: url("assets/right-bg.png"); background-position: right;}
-#bottom {background-image: url("assets/bottom-bg.png"); background-position: bottom;}
-#top {background-image: url("assets/top-bg.png"); background-position: top;}
-
-.content-box {
-    border: 10px solid; border-color: black; border-radius: 50px;
-    background-color: rgb(35, 35, 35);
-    padding: 35px;
-    max-width: 800px; min-width: 300px;
-    max-height: 600px;
-    overflow: auto;
+nav > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
 }
 
-#cordfuck {font-family: Grind; font-size: 50px;}
+nav > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+}
+
+nav > *:nth-child(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+}
+
+nav > *:nth-child(4) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}
+
+nav > *:nth-child(5) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+}
+
+nav > *:nth-child(6) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 5;
+}
+
+nav > *:nth-child(7) {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+}
+
+nav > *:nth-child(8) {
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+}
+
+nav > *:nth-child(9) {
+    -ms-grid-row: 5;
+    -ms-grid-column: 5;
+}
+@media screen and (min-width: 600px) and (min-height: 900px) {
+    nav {
+        -ms-grid-rows: 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px;
+        -ms-grid-columns: 200px 200px 200px;
+        grid-template-columns: 200px 200px 200px;
+    }
+    nav > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    nav > *:nth-child(2) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 2;
+    }
+    nav > *:nth-child(3) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
+    }
+    nav > *:nth-child(4) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    nav > *:nth-child(5) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 2;
+    }
+    nav > *:nth-child(6) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 3;
+    }
+    nav > *:nth-child(7) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    nav > *:nth-child(8) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 2;
+    }
+    nav > *:nth-child(9) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 3;
+    }
+}
+
+.nav-box:hover {background-blend-mode: darken;}
+
+#discography {-ms-grid-row: 1; -ms-grid-row-span: 2; grid-row: 1 / 3;}
+#premier {-ms-grid-column: 2; -ms-grid-column-span: 2; grid-column: 2 / 4;}
 
 #copyright {
     position: absolute;
-    bottom: 0;
-    height: 16px;
-    margin-bottom: 20px;
-}
-#copyleft-symbol {height: .85em; width: .85em; stroke: whitesmoke;}
-
-.side-indicator {
-    background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-    position: absolute; 
-    width: 10vw; height: 20vw;
-}
-.SI-flex-container {
-    width: 100%; height: 100%;
+    bottom: 2%;
+    height: 1.5em;
+    font-size: 2em;
     gap: 10px;
 }
-.line-svg, .arrow-svg{height: 100%; width: 50%;}
+svg, #CordFuck-BW {
+    height: 1.5em;
+    overflow: visible !important;
+    -webkit-filter: invert(99%) sepia(78%) saturate(53%) hue-rotate(222deg) brightness(112%) contrast(92%);
+    filter: invert(99%) sepia(78%) saturate(53%) hue-rotate(222deg) brightness(112%) contrast(92%);
+}
+#CordFuck-BW {height: 1.5em;}
 
-.SI-top {bottom: 90%; transform: rotate(-90deg);}
-.SI-right {left: 90%;}
-.SI-left {right: 90%; transform: rotate(-180deg);}
-.SI-bottom {top: 90%; transform: rotate(90deg);}
+.Cord-Chan {display: none; position: absolute; height: 70%; overflow: hidden;}
+#Cord-Chan-1 {left: 70%;}
+#Cord-Chan-2 {right: 70%;}
+@media screen and (min-width: 1080px) {
+    .Cord-Chan {
+        display: initial;
+    }
+}
 
-
-/* Styling links */
-a{color: #0f7afc; border-bottom-color: rgba(15, 122, 252, 0.2); text-decoration:none}
-a:hover{color:#cf0000; border-bottom-color: rgba(208, 64, 0, 0.2); text-decoration:none}
-a:visited{ color: #800080; border-bottom-color: rgba(128, 0, 128, 0.2); text-decoration:none}
+#repo{color: whitesmoke; position: absolute; bottom: 0%;}
+#repo:visited{color: whitesmoke;}

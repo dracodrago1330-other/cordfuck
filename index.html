@@ -12,147 +12,27 @@
         <link rel="manifest" href="/site.webmanifest">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css">
         <link href="https://pagecdn.io/lib/easyfonts/roboto.css" rel="stylesheet">
-        <script
-			  src="https://code.jquery.com/jquery-3.6.0.min.js"
-			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-			  crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="index.css">
-        <script src="/assets/index.js" defer></script>
     </head>
 
     <body>
-        <div></div> <!-- Dummy for CSS grid -->
-        <div class="section" id="top"> <!-- Streams -->
-            <div class="content-box">
-                Foobar
-            </div>
-        </div><div></div> <!-- Dummy for CSS grid --><div class="section" id="left"> <!-- Discography -->
-            <div class="content-box">
-                Foobar!
-            </div>
-            <button class="side-indicator SI-right" type="button" onclick="moveto(Where('center'))">
-                <p>Main</p>
-                <div class="SI-flex-container">
-                    <svg version="1.1" class="arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 476.213 476.213">
-                        <polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5 
-                            345.606,368.713 476.213,238.106 " style="fill: whitesmoke;" />
-                    </svg>
-                    <svg version="1.1" class="line-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
-                        <rect alignment-baseline="middle" style="fill: whitesmoke;" width="6" height="100"/>
-                    </svg>
-                </div>
-            </button>
-        </div><div class="section" id="center"> <!-- Main -->
-            <button class="side-indicator SI-top" type="button" onclick="moveto(Where('Top'))">
-                <p>Premiere</p>
-                <div class="SI-flex-container">
-                    <svg version="1.1" class="arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 476.213 476.213">
-                        <polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5 
-                            345.606,368.713 476.213,238.106 " style="fill: whitesmoke;" />
-                    </svg>
-                    <svg version="1.1" class="line-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
-                        <rect alignment-baseline="middle" style="fill: whitesmoke;" width="6" height="100"/>
-                    </svg>
-                </div>
-            </button>
-            <button class="side-indicator SI-left" type="button" onclick="moveto(Where('Left'))">
-                <p>Discography</p>
-                <div class="SI-flex-container">
-                    <svg version="1.1" class="arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 476.213 476.213">
-                        <polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5 
-                            345.606,368.713 476.213,238.106 " style="fill: whitesmoke;" />
-                    </svg>
-                    <svg version="1.1" class="line-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
-                        <rect alignment-baseline="middle" style="fill: whitesmoke;" width="6" height="100"/>
-                    </svg>
-                </div>
-            </button>
-            <div class="content-box">
-                <h1 id="cordfuck">CordFuck Records</h1>
-                <h2>THE WORLD IS A FUCK</h2>
-                <br>
-                <p>CordFuck is an experimental electronic label accepting releases now!</p>
-                <hr>
-                <sub>
-                    This site is libre! We don't use any proprietary code.<br>
-                    you can find our code under in our repo:<br>
-                    <a href="https://github.com/VixieTSQ/cordfuck">https://github.com/VixieTSQ/cordfuck</a>
-                </sub>
-            </div>
-            <p id="copyright">Copyleft 
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 980" id="copyleft-symbol">
-                    <circle cx="490" cy="490" r="440" fill="none" stroke="#F5F5F5" stroke-width="100"/>
-                    <path d="M219,428H350a150,150 0 1 1 0,125H219a275,275 0 1 0 0-125z" fill="#F5F5F5" stroke="#F5F5F5" stroke-width="50"/>
-                </svg>
-            2021 CordFuck Records</p>
-            <button class="side-indicator SI-right" type="button" onclick="moveto(Where('Right'))">
-                <p>Merch, announcements, other</p>
-                <div class="SI-flex-container">
-                    <svg version="1.1" class="arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 476.213 476.213">
-                        <polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5 
-                            345.606,368.713 476.213,238.106 " style="fill: whitesmoke;" />
-                    </svg>
-                    <svg version="1.1" class="line-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
-                        <rect alignment-baseline="middle" style="fill: whitesmoke;" width="6" height="100"/>
-                    </svg>
-                </div>
-            </button>
-            <button class="side-indicator SI-bottom" type="button" onclick="moveto(Where('Bottom'))">
-                <p>Submissions</p>
-                <div class="SI-flex-container">
-                    <svg version="1.1" class="arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 476.213 476.213">
-                        <polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5 
-                            345.606,368.713 476.213,238.106 " style="fill: whitesmoke;" />
-                    </svg>
-                    <svg version="1.1" class="line-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
-                        <rect alignment-baseline="middle" style="fill: whitesmoke;" width="6" height="100"/>
-                    </svg>
-                </div>
-            </button>
-        </div><div class="section" id="right"> <!-- Other such as news, merch, comps -->
-            <div class="content-box">
-                Foobar!
-            </div>
-        </div>
-        <div></div> <!-- Dummy for CSS grid --><div class="section" id="bottom">  <!-- Submission guidelines and contact -->
-            <div class="content-box">
-                <h1>Submissions</h1>
-                <h2>Guidelines</h2>
-                <ul>
-                    <li>releases of all qualities are allowed</li>
-                    <li>The <b>majority</b> of your release must fall under experimental electronic which includes anything from noise and ambient to breakcore and lolicore</li>
-                    <li>Direct references to pedophilia and other illegal content is allowed but no actual illegal content such as child porn is allowed in audio or images (This doesn't include copyrighted material. Go nuts!)</li>
-                    <li>No biggoted material. If you have to ask then it probably is</li>
-                    <li>We will never charge for a digital release. People may donate to you if they want to. 100% minus Paypal fees goes to you!</li>
-                </ul>
-                <p>If you want us to permiere your release in our streaming setup, just ask! If you have any other requests about your release, just ask!</p>
-                <br>
-                <h2>Physicals</h2>
-                <ul>
-                    <li>We do cassettes and CDRs</li>
-                    <li>We do have quality limits for physical releases</li>
-                    <li>How many cassettes is dependent on the quality of the release and your popularity</li>
-                    <li>80% of the physical's profits go to you</li>
-                    <li>We will set the price of the physical release and use a 3rd party payment processor</li>
-                    <li>Paypal or crypto for artists only!!</li>
-                </ul>
-                <h2>Contact</h2>
-                <br>
-                <p>You can contact us with contact@cordfuck.com or if we are not responding join this discord and dm the owner: <a href="https://discord.gg/HQB5RaXwFX">https://discord.gg/HQB5RaXwFX</a></p>
-                <p>Please send:
-                    <ul>
-                        <li>Your pronouns</li>
-                        <li>Your release in preferably high quality FLACs or WAVs plus any other media relevant</li>
-                        <li>The name you'd like to release under</li>
-                        <li>The name of the release</li>
-                        <li>Optionally a description of your release, this should also contain credits if there are any</li>
-                        <li>Do you want to release a physical?</li>
-                        <li>Do you have a Paypal for us to give you any profits?</li>
-                        <li>Anything else?</li>
-                    </ul>
-                </p>
-            </div>
-        </div><div></div> <!-- Dummy for CSS grid -->
+        <img src="assets/Cord-Chan 1.png" class="Cord-Chan" id="Cord-Chan-1">
+        <img src="assets/CordFuck Banner.svg" alt="CordFuck" id="banner">
+        <nav>
+            <a href="discography.html" class="nav-box" id="discography">Discography</a>
+            <a href="premier.html" class="nav-box" id="premier">Premier</a>
+            <a href="submissions.html" class="nav-box" id="submissions">Submissions</a>
+            <a href="other.html" class="nav-box" id="other">Merch, announcements, other</a>
+        </nav>
+        <div id="copyright">
+            <img src="assets/CordFuck Banner B&W.svg" alt="CordFuck" id="CordFuck-BW">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 980">
+                <circle cx="490" cy="490" r="440" fill="none" stroke="#000" stroke-width="100"/>
+                <path d="M219,428H350a150,150 0 1 1 0,125H219a275,275 0 1 0 0-125z"/>
+            </svg>
+            Copyleft 2021</div>
+            <a href="https://github.com/VixieTSQ/cordfuck" id="repo">https://github.com/VixieTSQ/cordfuck</a>
+            <img src="assets/Cord-Chan 2.png" class="Cord-Chan" id="Cord-Chan-2">
     </body>
 
 </html>
