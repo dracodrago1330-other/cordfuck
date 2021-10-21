@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Submissions</title>
+        <title>Premier</title>
         <meta name="description" content="An experiemental electronic netlabel. The world is a fuck">
         <meta name="author" content="@VixieTSQ on github">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css">
         <link href="https://pagecdn.io/lib/easyfonts/roboto.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="global.css">
+        <script type="text/javascript" src="premier.js"></script>
     </head>
 
     <body>

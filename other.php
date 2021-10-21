@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Submissions</title>
+        <title>other</title>
         <meta name="description" content="An experiemental electronic netlabel. The world is a fuck">
         <meta name="author" content="@VixieTSQ on github">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +26,7 @@
                         c-4.971,0-9,4.029-9,9s4.029,9,9,9h74.242c29.408,0,53.334-23.926,53.334-53.334S182.182,69.886,152.774,69.886z"/>
                 </svg>
             </a>
-            <a href="cart.html" class="nav-icons">
+            <a href="/cart.html" class="nav-icons">
                 <svg version="1.1" class="nav-icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 244 244" style="enable-background:new 0 0 244 244;" xml:space="preserve">
                     <g>
