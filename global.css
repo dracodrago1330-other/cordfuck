@@ -57,3 +57,19 @@ nav {
 section {margin-top: 1%; margin-bottom: 1%;}
 
 section {margin-top: 5%;}
+
+#copyright {
+    position: absolute;
+    bottom: 2%;
+    height: 1.5em;
+    font-size: 2em;
+    gap: 10px;
+}
+
+#copyleft, #CordFuck-BW {
+    height: 1.5em;
+    overflow: visible !important;
+    -webkit-filter: invert(99%) sepia(78%) saturate(53%) hue-rotate(222deg) brightness(112%) contrast(92%);
+    filter: invert(99%) sepia(78%) saturate(53%) hue-rotate(222deg) brightness(112%) contrast(92%);
+}
+#CordFuck-BW {height: 1.5em;}
