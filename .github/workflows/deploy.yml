@@ -12,5 +12,5 @@ jobs:
         with:
           key: ${{ secrets.SSH }} 
           known_hosts: "foobar"
-      - run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+      - run: ssh-keyscan -H cordfuck.com >> ~/.ssh/known_hosts
       - run: ssh -t root@cordfuck.com 'cd /var/www/cordfuck ; git reset --hard origin/main'
