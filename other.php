@@ -46,25 +46,34 @@
                 </svg>
             </a>
         </nav>
-        <div id="container">
-            <img src="assets/CordFuck Banner.svg" alt="CordFuck" id="banner">
-            <section>
-                <p>ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum mi est, vitae egestas nulla volutpat id. Suspendisse potenti. Vestibulum odio leo, consequat tempor blandit id, varius nec ipsum. Aliquam vel molestie arcu. Ut iaculis sapien eget cursus eleifend. Proin commodo convallis venenatis. Donec in mollis metus. Curabitur venenatis, eros bibendum consectetur egestas, nisl mi mollis urna, quis mollis dui velit ut odio. Maecenas ullamcorper, mauris maximus porttitor vehicula, tellus metus suscipit ipsum, et sodales libero libero sit amet lectus. In eget nisl bibendum, imperdiet magna sed, lacinia elit. Donec efficitur dictum ipsum eget tempus. Duis egestas laoreet dolor a blandit.</p>
+        <main>
+            <header><img src="assets/CordFuck Banner.svg" alt="CordFuck" id="banner"></header>
+            <section id="other-grid">
+                <article class="other-items"></article>
+                <article class="other-items" id="discord">
+                    <span id="discord-introduction">JOIN OUR DISCORD</span>
+                    <img src="assets/CordFuck Logo.svg" id="discord-img">
+                    <span id="discord-title">CordFuck</span>
+                    <a href="https://discord.gg/CYbKDrgref" id="discord-button"><span id="discord-button-text">Join</span></a>
+                </article>
+                <article class="other-items" id="announcements">
+                    <p>ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum mi est, vitae egestas nulla volutpat id. Suspendisse potenti. Vestibulum odio leo, consequat tempor blandit id, varius nec ipsum. Aliquam vel molestie arcu. Ut iaculis sapien eget cursus eleifend. Proin commodo convallis venenatis. Donec in mollis metus. Curabitur venenatis, eros bibendum consectetur egestas, nisl mi mollis urna, quis mollis dui velit ut odio. Maecenas ullamcorper, mauris maximus porttitor vehicula, tellus metus suscipit ipsum, et sodales libero libero sit amet lectus. In eget nisl bibendum, imperdiet magna sed, lacinia elit. Donec efficitur dictum ipsum eget tempus. Duis egestas laoreet dolor a blandit.</p>
 
-                <p>Vivamus eget dapibus risus. Pellentesque et lacus dapibus, dignissim purus sed, suscipit nunc. Ut lobortis lobortis ligula, et ultrices nulla maximus et. Nam nec justo tellus. Ut nec tincidunt diam. Nunc sagittis augue nulla, quis fermentum mi finibus nec. Cras et metus sagittis nunc ornare convallis congue a eros. Suspendisse varius nunc non ligula dictum iaculis. Vivamus tempor eros sit amet finibus tristique. Nunc nec consequat dolor. In nec blandit dui. Praesent scelerisque nec nisi ut volutpat.</p>
-                
-                <p>eget odio erat. Donec nisi arcu, vulputate bibendum scelerisque et, congue sit amet libero. Curabitur finibus, odio sit amet auctor accumsan, massa dolor ullamcorper velit, vel vulputate arcu nisl ac augue. Donec suscipit purus id justo tristique, eu rhoncus nibh semper. Praesent orci risus, sagittis sit amet urna id, facilisis porta libero. Cras volutpat eros a volutpat semper. Curabitur et mollis mi. Suspendisse eu arcu risus. Ut nec condimentum est. Donec a luctus leo. Fusce eget nisl nec ipsum placerat molestie ac non lorem.</p>
-                
-                <p>vel nulla eu dui bibendum gravida. Sed tellus mauris, gravida nec diam eu, maximus blandit odio. Sed elementum faucibus dapibus. Nullam mollis cursus ipsum, eget mattis nunc tincidunt nec. Fusce at nulla lorem. Aliquam non justo pellentesque est pulvinar efficitur. Praesent feugiat sapien nec nisi congue, quis dapibus risus posuere. Fusce condimentum purus ligula, nec egestas erat ultricies et. Nullam aliquam nunc et ex fermentum, non ultrices nulla tempus. Suspendisse ullamcorper efficitur molestie. Suspendisse dapibus eros in elit congue, eget blandit tellus laoreet. Quisque nibh quam, dictum sit amet molestie ut, consectetur sed erat. Praesent faucibus sem id nunc malesuada, quis consequat justo iaculis. Aliquam semper elit ut consequat egestas.</p>             
+                    <p>Vivamus eget dapibus risus. Pellentesque et lacus dapibus, dignissim purus sed, suscipit nunc. Ut lobortis lobortis ligula, et ultrices nulla maximus et. Nam nec justo tellus. Ut nec tincidunt diam. Nunc sagittis augue nulla, quis fermentum mi finibus nec. Cras et metus sagittis nunc ornare convallis congue a eros. Suspendisse varius nunc non ligula dictum iaculis. Vivamus tempor eros sit amet finibus tristique. Nunc nec consequat dolor. In nec blandit dui. Praesent scelerisque nec nisi ut volutpat.</p>
+
+                    <p>eget odio erat. Donec nisi arcu, vulputate bibendum scelerisque et, congue sit amet libero. Curabitur finibus, odio sit amet auctor accumsan, massa dolor ullamcorper velit, vel vulputate arcu nisl ac augue. Donec suscipit purus id justo tristique, eu rhoncus nibh semper. Praesent orci risus, sagittis sit amet urna id, facilisis porta libero. Cras volutpat eros a volutpat semper. Curabitur et mollis mi. Suspendisse eu arcu risus. Ut nec condimentum est. Donec a luctus leo. Fusce eget nisl nec ipsum placerat molestie ac non lorem.</p>
+
+                    <p>vel nulla eu dui bibendum gravida. Sed tellus mauris, gravida nec diam eu, maximus blandit odio. Sed elementum faucibus dapibus. Nullam mollis cursus ipsum, eget mattis nunc tincidunt nec. Fusce at nulla lorem. Aliquam non justo pellentesque est pulvinar efficitur. Praesent feugiat sapien nec nisi congue, quis dapibus risus posuere. Fusce condimentum purus ligula, nec egestas erat ultricies et. Nullam aliquam nunc et ex fermentum, non ultrices nulla tempus. Suspendisse ullamcorper efficitur molestie. Suspendisse dapibus eros in elit congue, eget blandit tellus laoreet. Quisque nibh quam, dictum sit amet molestie ut, consectetur sed erat. Praesent faucibus sem id nunc malesuada, quis consequat justo iaculis. Aliquam semper elit ut consequat egestas.</p>             
+                </article>
             </section>
-        </div>
-        <div id="copyright">
+        </main>
+        <footer>
             <img src="assets/CordFuck Banner B&W.svg" alt="CordFuck" id="CordFuck-BW">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 980" style="enable-background:new 0 0 980 980;" id="copyleft">
                 <circle cx="490" cy="490" r="440" fill="none" stroke="#000" stroke-width="100"/>
                 <path d="M219,428H350a150,150 0 1 1 0,125H219a275,275 0 1 0 0-125z"/>
             </svg>
-            Copyleft - All Rights Reversed 2021</div>
+            Copyleft - All Rights Reversed 2021</footer>
     </body>
 
 </html>
