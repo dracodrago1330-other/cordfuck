@@ -8,7 +8,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    -  uses: appleboy/ssh-action@master
+      - uses: appleboy/ssh-action@master
         with:
           host: 217.182.253.173
           username: root
@@ -16,4 +16,4 @@ jobs:
           port: 22
           script: |
             cd /var/www/cordfuck
-            git reset --hard origin/main
+            git reset --hard
