@@ -8,12 +8,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-        uses: appleboy/ssh-action@master
-        with:
-          host: 217.182.253.173
-          username: root
-          key: ${{ secrets.SSH }}
-          port: 22
-          script: |
-            cd /var/www/cordfuck
-            git reset --hard origin/main
+      uses: appleboy/ssh-action@master
+      with:
+        host: 217.182.253.173
+        username: root
+        key: ${{ secrets.SSH }}
+        port: 22
+        script: |
+          cd /var/www/cordfuck
+          git reset --hard origin/main
