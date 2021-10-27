@@ -59,13 +59,13 @@
                 <p>vel nulla eu dui bibendum gravida. Sed tellus mauris, gravida nec diam eu, maximus blandit odio. Sed elementum faucibus dapibus. Nullam mollis cursus ipsum, eget mattis nunc tincidunt nec. Fusce at nulla lorem. Aliquam non justo pellentesque est pulvinar efficitur. Praesent feugiat sapien nec nisi congue, quis dapibus risus posuere. Fusce condimentum purus ligula, nec egestas erat ultricies et. Nullam aliquam nunc et ex fermentum, non ultrices nulla tempus. Suspendisse ullamcorper efficitur molestie. Suspendisse dapibus eros in elit congue, eget blandit tellus laoreet. Quisque nibh quam, dictum sit amet molestie ut, consectetur sed erat. Praesent faucibus sem id nunc malesuada, quis consequat justo iaculis. Aliquam semper elit ut consequat egestas.</p>             
             </section>
         </main>
-        <foote>
+        <footer>
             <img src="assets/CordFuck Banner B&W.svg" alt="CordFuck" id="CordFuck-BW">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 980" style="enable-background:new 0 0 980 980;" id="copyleft">
                 <circle cx="490" cy="490" r="440" fill="none" stroke="#000" stroke-width="100"/>
                 <path d="M219,428H350a150,150 0 1 1 0,125H219a275,275 0 1 0 0-125z"/>
             </svg>
-            Copyleft - All Rights Reversed 2021</foote>
+            Copyleft - All Rights Reversed 2021</footer>
     </body>
 
 </html>
