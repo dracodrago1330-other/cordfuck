@@ -49,7 +49,10 @@
         <main>
             <header><img src="assets/CordFuck Banner.svg" alt="CordFuck" id="banner"></header>
             <section id="other-grid">
-                <article class="other-items"></article>
+                <article class="other-items" id="redbubble">
+                    <div></div>
+                    <div></div>
+                </article>
                 <article class="other-items" id="discord">
                     <span id="discord-introduction">JOIN OUR DISCORD</span>
                     <img src="assets/CordFuck Logo.svg" id="discord-img">
