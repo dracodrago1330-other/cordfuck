@@ -51,8 +51,10 @@ main {
     }
     .nav-icons {height: 100%;}
 
-    #announcements {height: 100%; max-height: none !important;}
+    section {padding-bottom: 0 !important;}
 
+    #announcements {border-radius: 0 !important;}
+    
     footer {display: none;}
 }
 @media screen and (max-height: 850px) {
@@ -60,6 +62,20 @@ main {
         display: none;
     }
 }
+@media screen and (max-width: 660px) {
+    #discord {
+        -webkit-box-orient: horizontal !important;
+        -ms-flex-direction: row !important; flex-direction: row !important;
+        gap: 0 !important;
+    }
+    #discord-introduction {
+        position: absolute;
+        top: 15%; left: 6vw;
+    }
+    #discord-img {margin-right: 1em;}
+    #discord-button {margin-left: 0.625em;}
+}
+
 
 #banner {
     width: 90%; height: 23%;
@@ -116,6 +132,8 @@ section {
     background-color: rgb(47, 49, 54);
     color: white;
     gap: 1em;
+    position: relative;
+    min-height: 170.15px;
 
 }
 #discord-introduction {
@@ -134,7 +152,7 @@ section {
 }
 #discord-button {
     font-family: Whitney; font-weight: 500; font-size: .875em;
-    height: 3em;
+    min-height: 3em;
     padding-left: 2em; padding-right: 2em;
     margin-bottom: 0.375em;
     background-color: rgb(59, 165, 93);

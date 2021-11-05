@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css">
         <link href="https://pagecdn.io/lib/easyfonts/roboto.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="global.css">
-        <script type="text/javascript" src="premier.js"></script>
+        <script defer type="text/javascript" src="premier.js"></script>
     </head>
 
     <body>
